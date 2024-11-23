@@ -1530,7 +1530,7 @@ enum AVFieldOrder {
  * sizeof(AVCodecContext) must not be used outside libav*.
  */
 typedef struct AVCodecContext {
-    /**
+    /**AVCodecContext
      * information on struct for av_log
      * - set by avcodec_alloc_context3
      */

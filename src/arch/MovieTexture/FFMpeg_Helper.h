@@ -8,6 +8,16 @@
 
 #define FFCTX_BUFFER_SIZE 4096
 
+namespace avcodec
+{
+	class AVIOContext;
+	class AVFormatContext;
+	class AVCodecContext;
+	class AVPacket;
+	class AVFrame;
+	class AVCodec;
+}
+
 class FFMpeg_Helper
 {
 public:
